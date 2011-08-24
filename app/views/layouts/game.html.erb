@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GameLand</title>
+  <%= stylesheet_link_tag :all %>
+  <%= javascript_include_tag "rails.js" %>
+  <%= javascript_include_tag "games/mario/Enjine/core.js" %>
+  <%= javascript_include_tag "games/mario/Enjine/gameCanvas.js" %>
+     <!-- Enjine Includes -->
+  <%= javascript_include_tag "games/mario/Enjine/core.js" %>
+  <%= javascript_include_tag "games/mario/Enjine/gameCanvas.js" %>
+  <%= javascript_include_tag "games/mario/Enjine/keyboardInput.js" %>
+  <%= javascript_include_tag "games/mario/Enjine/resources.js" %>
+  <%= javascript_include_tag "games/mario/Enjine/drawable.js" %>
+  <%= javascript_include_tag "games/mario/Enjine/state.js" %>
+  <%= javascript_include_tag "games/mario/Enjine/gameTimer.js" %>
+  <%= javascript_include_tag "games/mario/Enjine/camera.js" %>
+  <%= javascript_include_tag "games/mario/Enjine/drawableManager.js" %>
+  <%= javascript_include_tag "games/mario/Enjine/sprite.js" %>
+  <%= javascript_include_tag "games/mario/Enjine/spriteFont.js" %>
+  <%= javascript_include_tag "games/mario/Enjine/frameSprite.js" %>
+  <%= javascript_include_tag "games/mario/Enjine/animatedSprite.js" %>
+  <%= javascript_include_tag "games/mario/Enjine/collideable.js" %>
+  <%= javascript_include_tag "games/mario/Enjine/application.js" %>
+
+  <!-- Actual game mario/code -->
+  <%= javascript_include_tag "games/mario/code/setup.js" %>
+  <%= javascript_include_tag "games/mario/code/spriteCuts.js" %>
+  <%= javascript_include_tag "games/mario/code/level.js" %>
+  <%= javascript_include_tag "games/mario/code/backgroundGenerator.js" %>
+  <%= javascript_include_tag "games/mario/code/backgroundRenderer.js" %>
+  <%= javascript_include_tag "games/mario/code/improvedNoise.js" %>
+  <%= javascript_include_tag "games/mario/code/notchSprite.js" %>
+  <%= javascript_include_tag "games/mario/code/character.js" %>
+  <%= javascript_include_tag "games/mario/code/levelRenderer.js" %>
+  <%= javascript_include_tag "games/mario/code/levelGenerator.js" %>
+  <%= javascript_include_tag "games/mario/code/spriteTemplate.js" %>
+  <%= javascript_include_tag "games/mario/code/enemy.js" %>
+  <%= javascript_include_tag "games/mario/code/fireball.js" %>
+  <%= javascript_include_tag "games/mario/code/sparkle.js" %>
+  <%= javascript_include_tag "games/mario/code/coinAnim.js" %>
+  <%= javascript_include_tag "games/mario/code/mushroom.js" %>
+  <%= javascript_include_tag "games/mario/code/particle.js" %>
+  <%= javascript_include_tag "games/mario/code/fireFlower.js" %>
+  <%= javascript_include_tag "games/mario/code/bulletBill.js" %>
+  <%= javascript_include_tag "games/mario/code/flowerEnemy.js" %>
+  <%= javascript_include_tag "games/mario/code/shell.js" %>
+  <%= javascript_include_tag "games/mario/code/titleState.js" %>
+  <%= javascript_include_tag "games/mario/code/loadingState.js" %>
+  <%= javascript_include_tag "games/mario/code/loseState.js" %>
+  <%= javascript_include_tag "games/mario/code/winState.js" %>
+  <%= javascript_include_tag "games/mario/code/mapState.js" %>
+  <%= javascript_include_tag "games/mario/code/levelState.js" %>
+  <%= javascript_include_tag "games/mario/code/music.js" %>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+  <%= csrf_meta_tag %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
