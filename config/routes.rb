@@ -1,5 +1,6 @@
 GameLand::Application.routes.draw do
   get "game/index"
+  get "my_page/index"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
@@ -50,7 +51,7 @@ GameLand::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  # root :to => "welcome#index"
+  root :to => "my_page#index"
 
   # See how all your routes lay out with "rake routes"
 
